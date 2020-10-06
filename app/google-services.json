@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "255803438452",
+    "firebase_url": "https://employee-tracker-529b3.firebaseio.com",
+    "project_id": "employee-tracker-529b3",
+    "storage_bucket": "employee-tracker-529b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255803438452:android:7cf2ac5cf2207619ab2821",
+        "android_client_info": {
+          "package_name": "com.example.employee_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255803438452-bevc31fe0a9rqb9042ntfobf9dq05e1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSyPO24GuM1qlb9l8bM20pSUWSh5iYeYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255803438452-bevc31fe0a9rqb9042ntfobf9dq05e1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

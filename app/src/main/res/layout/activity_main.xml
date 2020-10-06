@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:src="@mipmap/feildagent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lemon"
+        android:text="Welcome Field Agent"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Button
+        android:id="@+id/btnFieldCollection"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="field collection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
+
+    <Button
+        android:id="@+id/btnCustomers"
+        app:layout_constraintEnd_toEndOf="@+id/btnFieldCollection"
+        app:layout_constraintStart_toStartOf="@+id/btnFieldCollection"
+        app:layout_constraintTop_toBottomOf="@+id/btnFieldCollection"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="customers"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnFieldBanking"
+        app:layout_constraintEnd_toEndOf="@+id/btnCustomers"
+        app:layout_constraintStart_toStartOf="@+id/btnCustomers"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustomers"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="field banking"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/btnMobileMoney"
+        app:layout_constraintEnd_toEndOf="@+id/btnFieldBanking"
+        app:layout_constraintStart_toStartOf="@+id/btnFieldBanking"
+        app:layout_constraintTop_toBottomOf="@+id/btnFieldBanking"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="mobile money"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <Button
+        android:id="@+id/btnOther"
+        app:layout_constraintEnd_toEndOf="@+id/btnMobileMoney"
+        app:layout_constraintStart_toStartOf="@+id/btnMobileMoney"
+        app:layout_constraintTop_toBottomOf="@+id/btnMobileMoney"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="other"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <Button
+        android:id="@+id/btnAllActivities"
+        app:layout_constraintEnd_toEndOf="@+id/btnOther"
+        app:layout_constraintStart_toStartOf="@+id/btnOther"
+        app:layout_constraintTop_toBottomOf="@+id/btnOther"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="all activities"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
